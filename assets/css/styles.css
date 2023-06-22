@@ -2,37 +2,219 @@ body {
     font-family: 'Anton', sans-serif;
 }
 
-
-#navbar-header{
+/* navigation bar */
+/* 
+#navbar-header {
     bottom: 0px;
     height: 116px;
     padding-top: 0px;
     padding-bottom: 0px;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 0;
+} */
+
+.navbar-nav {
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .nav-item {
     text-transform: uppercase;
-    margin-left: 225px;
-    font-size: 140%;
+    font-size: 180%;
+    color: #fafafa;
 }
+
+@media screen and (min-width: 990px) {
+    .nav-item {
+        margin-left: 200px;
+    }
+}
+
+/*---logo-----*/
 
 #move2improve-logo {
-    font-size: 150%;
+    font-size: 200%;
     text-align: center;
-    margin-left: 75px;
+    margin-left: 25px;
     border-bottom: none;
     text-decoration: none;
-    color: black;
-   
-    
+    color: rgba(20, 69, 20, 0.607);
 
 }
 
-.hero-image {
+/* hero image front of the page */
+
+#hero-outer {
+    height: 75vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
     background: url("../images/close-up.png");
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;  
+    background-size: cover;
+    height: 75vh;
+    width: 100%;
+}
+
+#cover-text {
+    letter-spacing: 0.25rem;
+    padding: 2rem;
+    background-color: rgba(20, 69, 20, 0.23);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fafafa;
+    text-transform: uppercase;
+}
+
+
+#center-text {
+    position: center;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.subheader-center-text {
+    background-color: rgba(20, 69, 20, 0.4);
+    height: 25vh;
+    text-align: center;
+    padding: 75px;
+
+}
+
+.subheader-center-text h2 {
+    margin-bottom: 20px;
+
+}
+
+#left-image {
+    background: url("assets/images/gym-building.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 30vh;
+    width: 100%;
+    position: absolute;
+    /* float: left; */
+}
+
+/* div {
+    display: block;
+} */
+
+
+@media screen and (min-width: 990px) {
+    .hero-image {
+        height: 100vh;
+    }
+}
+
+/*---symbol section---*/
+
+.symbols-container {
+    margin: 0;
+    height: 25vh;
+    background-color: rgba(100, 82, 179, 0.474);
+    padding: 75px;
+
+}
+
+.list-inline-item {
+    padding: 18px;
+    font-size: 250%;
+}
+
+.symbols i {
+    font-size: 40px;
+}
+
+.symbols p {
+    margin-top: 25px;
+}
+
+.symbols {
+    font-size: 15px;
+
+}
+
+.members-symbol {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 15px;
+}
+
+h4 {
+    text-align: center;
+}
+
+/*---members-review----*/
+
+.members-review {
+    margin: 0;
+    height: 25vh;
+    background-color: rgba(219, 176, 45, 0.474);
+    padding: 75px;
+}
+
+/*---footer-----*/
+
+footer {
+    background-color: rgba(21, 104, 42, 0.639);
+    height: 25vh;
+}
+
+.social-network {
+    padding: 20px;
+    text-align: center;
+
+}
+
+.contact {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+/*---map-----*/
+
+#map-wrapper {
+    height: 100px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+/*-----p------*/
+
+.members-review p {
+    font-size: 125%;
+}
+
+.symbols-container p {
+    font-size: 125%;
+}
+
+.subheader-center-text p {
+    font-size: 125%;
+}
+
+.contact p {
+    font-size: 125%;
 }
