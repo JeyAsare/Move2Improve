@@ -1,6 +1,38 @@
+body {
+    font-family: 'Anton', sans-serif;
+}
+
+
 #navbar-header{
     bottom: 0px;
-    height: 132px;
+    height: 116px;
     padding-top: 0px;
     padding-bottom: 0px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.nav-item {
+    text-transform: uppercase;
+    margin-left: 225px;
+    font-size: 140%;
+}
+
+#move2improve-logo {
+    font-size: 150%;
+    text-align: center;
+    margin-left: 75px;
+    border-bottom: none;
+    text-decoration: none;
+    color: black;
+   
+    
+
+}
+
+.hero-image {
+    background: url("../images/close-up.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
 }
