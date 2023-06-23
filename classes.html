@@ -16,54 +16,69 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-light bg-light navbar-expand-sm callout-info" id="navbar-header">
-            <a id="move2improve-logo" href="index.html">Move2Improve</a>
-            <ul class="navbar-nav mr auto">
-                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="active nav-item"><a class="nav-link" href="classes.html">Classes</a></li>
-                <li class="nav-item"><a class="nav-link" href="personaltrainers.html">Personal Trainers</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" id="move2improve-logo" href="#">Move2Improve</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="classes.html">Classes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="personaltrainers.html">Personal Trainers</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <section>
         <!--hero-image with a brief description about classes-->
         <div class="container-fluid">
             <div class="row">
-                <div class="mi2-classes">
+                <div class="mi2-classes col-3">
                     <h5>Cardio</h5>
-                    <!--picture-->
+                    <div class="cardio-picture"><img src="assets/images/running-bike.jpg"
+                            alt="man using bike machine in the gym"></div>
+                    <div class="mi2-classes col-3">
+                        <h5>Flexibility & Mobility</h5>
+                        <div class="stretching picture"><img src="assets/images/stretching.png"
+                                alt="people stretching inside a gym studio">
+                        </div>
+                        <div class="mi2-classes col-3">
+                            <h5>Pilates</h5>
+                            <!--picture-->
+                        </div>
+                        <div class="mi2-classes col-3">
+                            <h5>Muscular Endurance</h5>
+                            <!--picture-->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="mi2-classes col-3">
+                            <h5>Yoga</h5>
+                            <!--picture-->
+                        </div>
+                        <div class="mi2-classes col-3">
+                            <h5>Upper Body</h5>
+                            <!--picture-->
+                        </div>
+                        <div class="mi2-classes col-3">
+                            <h5>Lower Body</h5>
+                            <!--picture-->
+                        </div>
+                        <div class="mi2-classes col-3">
+                            <h5>Conditioning</h5>
+                            <!--picture-->
+                        </div>
+                    </div>
                 </div>
-                <div class="mi2-classes">
-                    <h5>Flexibility & Mobility</h5>
-                    <!--picture-->
-                </div>
-                <div class="mi2-classes">
-                    <h5>Pilates</h5>
-                    <!--picture-->
-                </div>
-                <div class="mi2-classes">
-                    <h5>Muscular Endurance</h5>
-                    <!--picture-->
-                </div>
-                <div class="mi2-classes">
-                    <h5>Yoga</h5>
-                    <!--picture-->
-                </div>
-                <div class="mi2-classes">
-                    <h5>Upper Body</h5>
-                    <!--picture-->
-                </div>
-                <div class="mi2-classes">
-                    <h5>Lower Body</h5>
-                    <!--picture-->
-                </div>
-                <div class="mi2-classes">
-                    <h5>Conditioning</h5>
-                    <!--picture-->
-                </div>
-            </div>
-        </div>
     </section>
     <section class="reviews">
         <div class="container overflow-hidden text-center">

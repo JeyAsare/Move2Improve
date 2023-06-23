@@ -94,20 +94,6 @@ body {
 
 }
 
-#left-image {
-    background: url("assets/images/gym-building.png");
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: cover;
-    height: 30vh;
-    width: 100%;
-    position: absolute;
-    /* float: left; */
-}
-
-/* div {
-    display: block;
-} */
 
 
 @media screen and (min-width: 990px) {
@@ -218,3 +204,13 @@ footer {
 .contact p {
     font-size: 125%;
 }
+
+.cardio-picture {
+    background-image: url("assets/images/running-bike.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+
