@@ -205,12 +205,124 @@ footer {
     font-size: 125%;
 }
 
+/* .mi2-classes {
+    display: flex;
+    flex-flow: row wrap;
+} */
+
 .cardio-picture {
     background-image: url("assets/images/running-bike.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+
 }
 
+.stretching-picture {
+    background-image: url("assets/images/stretching.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.pilates-picture {
+    background-image: url("assets/images/pilates.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.muscular-pictures {
+    background-image: url("assets/images/muscular.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.yoga-pictures {
+    background-image: url("assets/images/yoga.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.upperbody-picture {
+    background-image: url("assets/images/shoulder.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.lowerbody-picture {
+    background-image: url("assets/images/barbell-squat.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.conditioning-picture {
+    background-image: url("assets/images/plyometrics.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.list-inline-item img:not(:last-child) {
+    margin-right: 7.5rem;
+    text-align: center;
+}
+
+.list-inline-item img {
+    padding: 18px;
+    font-size: 250%;
+}
+
+.col-3 {
+    flex: 0 0 auto;
+    width: 20%;
+    text-align: center;
+    margin-left: 70px;
+}
+
+.list-inline-item img {
+    display: inline-block;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
