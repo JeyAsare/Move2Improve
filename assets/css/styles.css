@@ -159,6 +159,8 @@ h4 {
 footer {
     background-color: rgba(21, 104, 42, 0.639);
     height: 25vh;
+    margin: 0;
+    padding: 0;
 }
 
 .social-network {
@@ -325,4 +327,34 @@ footer {
 ::after,
 ::before {
     box-sizing: border-box;
+}
+
+#personaltrainer-j {
+    float: left;
+    width: 50%;
+    margin-top: 50px;
+
+    display: inline-grid;
+    padding-bottom: 20px;
+
+}
+
+
+#personaltrainer-k {
+    float: right;
+    width: 50%;
+    margin-top: 50px;
+    display: inline-grid;
+    padding-bottom: 20px;
+}
+
+.pt-container {
+    background-color: rgba(219, 176, 45, 0.349);
+    background-image: url("assets/images/treadmill.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.pt2-container {
+    background-color: rgba(240, 239, 244, 0.474);
 }
