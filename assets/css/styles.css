@@ -16,9 +16,9 @@ body {
     color: #fafafa;
 }
 
-/* @media screen and (min-width: 990px) {
+/* @media screen and (min-width: 1195px) {
     .nav-item {
-        margin-left: 200px;
+        margin-left: 195px;
     }
 } */
 
@@ -34,7 +34,7 @@ body {
 
 }
 
-/* hero image front of the page */
+/* hero-image and cover-text */
 
 #hero-outer {
     height: 75vh;
@@ -65,6 +65,7 @@ body {
     text-transform: uppercase;
 }
 
+/*----center and subheader text-----*/
 
 #center-text {
     position: center;
@@ -72,12 +73,11 @@ body {
     text-align: center;
 }
 
-.subheader-center-text {
+.subheader-center-text,
+.symbols-container {
     background-color: rgba(20, 69, 20, 0.4);
-    height: 25vh;
     text-align: center;
-    padding: 75px;
-
+    padding: 20px;
 }
 
 .subheader-center-text h2 {
@@ -85,11 +85,30 @@ body {
 
 }
 
-
+/*---media screen----*/
 
 @media screen and (min-width: 990px) {
     .hero-image {
         height: 100vh;
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+
+    .subheader-center-text,
+    .symbols-container {
+        padding: 75px;
+    }
+
+    .list-inline-item {
+        padding: 18px;
+    }
+}
+
+@media screen and (min-width: 1195px) {
+    .nav-item {
+        margin-left: 195px;
     }
 }
 
@@ -97,15 +116,8 @@ body {
 
 .symbols-container {
     margin: 0;
-    height: 25vh;
     background-color: rgba(100, 82, 179, 0.474);
-    padding: 75px;
 
-}
-
-.list-inline-item {
-    padding: 18px;
-    font-size: 250%;
 }
 
 .symbols i {
@@ -126,6 +138,8 @@ body {
     margin-bottom: 20px;
 }
 
+/*---h2,h3,h4------*/
+
 h2 {
     text-decoration: underline;
     text-align: center;
@@ -140,7 +154,6 @@ h4 {
 
 .members-review {
     margin: 0;
-    height: 25vh;
     background-color: rgba(219, 176, 45, 0.474);
     padding: 75px;
 }
@@ -149,7 +162,6 @@ h4 {
 
 footer {
     background-color: rgba(21, 104, 42, 0.639);
-    height: 25vh;
     margin: 0;
     padding: 0;
 }
@@ -169,17 +181,6 @@ footer {
     text-transform: uppercase;
 }
 
-/*---map-----*/
-
-#map-wrapper {
-    height: 100px;
-}
-
-#map {
-    height: 100%;
-    width: 100%;
-}
-
 /*-----p------*/
 
 .members-review p {
@@ -197,6 +198,8 @@ footer {
 .contact p {
     font-size: 125%;
 }
+
+/*---classes-pictures----*/
 
 .cardio-picture {
     background-image: url("assets/images/running-bike.jpg");
@@ -288,6 +291,12 @@ footer {
     padding: 0;
 }
 
+/*---list-inline----*/
+
+.list-inline {
+    text-align: center;
+}
+
 .list-inline-item img:not(:last-child) {
     margin-right: 7.5rem;
     text-align: center;
@@ -298,15 +307,22 @@ footer {
     font-size: 250%;
 }
 
+.list-inline-item img {
+    display: inline-block;
+}
+
+.list-inline-item {
+    padding: 14px;
+    font-size: 250%;
+}
+
+/*----***----*/
+
 .col-3 {
     flex: 0 0 auto;
     width: 20%;
     text-align: center;
     margin-left: 70px;
-}
-
-.list-inline-item img {
-    display: inline-block;
 }
 
 *,
@@ -319,9 +335,9 @@ footer {
     background-color: rgba(100, 82, 179, 0.474);
 }
 
+/*---personal-trainer---*/
+
 #personaltrainer-m {
-    float: left;
-    width: 50%;
     margin-top: 50px;
 
     display: inline-grid;
@@ -357,6 +373,7 @@ footer {
     overflow: hidden;
     position: relative;
 }
+
 
 #background-image {
     background-image: url("assets/images/gym-community-2.jpg");
