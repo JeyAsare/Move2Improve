@@ -1,39 +1,102 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+#My User Centric Frontend Development Milestone Project#
 
-Welcome,
+My name is Jeremy and this is my website - Move2Improve. Move2Improve is fitness site aimed for anybody who is looking to start or enhance their fitness journey.
+This project is for educational purposes only as it will only be used in my portfolio and wiil not be used for any business purposes.
+The aim for this project is to build a fully responsive website for users on any devices such as phones, tablets and desktops.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+##User Experience (UX)##
+My goals for this website ?
+My main intentions for this website is to build a functional and responsve frontend site with high end performance which maximises user experience. The features of this site helps users gain an understanding of what Move2Improve does and what we have to offer. For example, this site has features such as a Classes page where users can view various different types of exercises and workouts that would suit them. This site also has a Personal Trainers page for users who are loooking for a more intimte, more specific way of working out and would need one-to-one support.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+##User goals##
 
-## Codeanywhere Reminders
+New user goals:
+New users should be able to locate any information they need from the Move2Improve site.
+New users will also be able to see what the site has to offer through written and visual content,
+Finally if a new user wanted to get in touch or locate our business premises they will be able to get all contact information needed.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+Returning user goals:
+Returing users have up to 8 different classes they can choose to get involved in.
+Returning users have a selection of personal trainers available to them.
+Return users can easily get in touch if they have any quieries.
 
-`python3 -m http.server`
+Frequent user goals:
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+ frequent user will be lookng to find out if there are any updates on our site
+Frequent users tend to be intrigued by some for of context, for example, newsletters or blogs.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+Design
+Colour Scheme
+The main colours I used were:
+rgba(20, 69, 20, 0.23) - dark green
+rgba(100, 82, 179, 0.474) - lilac
+rgba(219, 176, 45, 0.474) - orange/gold
+rgba(21, 104, 42, 0.639) - lighter green
+The reason for using rgba was due to the vast range of colours that I could look at. Rgba is also very easy to use as you can also toggle with opacity.
 
-`http_server`
+Typography
+The Anton font is the main and only font I used. This font stood out to me because of its boldness and thickness and for such a site as Move2Improve I wanted a stand out font that all users will be able to see with ease. I also fel that the font in some way fits in with Move2Improve as it is such a hard and robust font.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Images/Pictures
+The imagery and setting I used for my pictures almost always revolved around people being in the gym, working out in the gym and having fun in the gym. Through the pictures you can see some individuals straining as they are squatting 100kg, but also see people having a relaxed session of yoga. I wanted the user to get the impression that Move2Improve is a well rounded gym that they can easily fit in with.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+Planning
+I planned on building my site using Balsamiq Wireframes. This site allowed me to plan the skeleton structure of my sight and invision how it would look like ince I have fully completed my website.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Features
+This site has 3 pages.
+Index.html: this page is my hompage. I have a hero-image at the start which catches users instantly and as they progress down the page they see brief descriptions about us for example, benefits of joining our finess regime and what our members already think of us. The page ends with a footer which entails our social media and contact information.
+Classes.html: this is my second page. This page shows all 8 classes we have to offer. Each picture has a name of the workout/exercise beside it so users know exactly what class they would like to do. Beneath that section is a review on 4 of our classes by our members. The page then ends with our footer.
+Personaltrainers.html: this is our third page. This page presents users of our 4 personal trainers. Each personal trainer has a self-portrait of themselves with quotes from their students. Below our personal trainers are more pictures of our gym and community which would be appealing on the eye for our users.
 
-To log into the Heroku toolbelt CLI:
+What offer features am I loooking to add?
+I would like to add a form section for users to fill out and get signed up to Move2Improve.
+I would also like to add videos to my site for a enhanced user experience.
+Also I would like to offer a online course section for Move2Improve for users who would like to workout and exercise indoors.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Technologies Used
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+The languages I used were:
+HTML5
+CSS3
+Balsamiq
+Bootstrap
+Font Awesome
+Github
+Codeanywhere
 
----
+I also used Midjourney which is a AI bot program where I type a request in and it delivers imagery. Thats what I used for all my images.
 
-Happy coding!
+Testing Used
+
+I used markup validators to make sure that my code was all correct and that there were no errors in my code. It is a more efficient way to check for bugs when you have loads of code to check.
+validator.w3.org (Nu HTML checker)
+cssportal.com (css checker)
+When using the Html checker, my results showed that I had a few warning messages about my code. It told me that I had <sections> without any <h2>-<h6> which isn't the best way to write code. It also adviced me that instead of having a <section> element I should just use <div>.
+
+Further Testing
+Main testing platform was Google Chrome.
+I have tried using it on Safari. One issue I have gotten with Safari was that on my personal trainer page, my row of 8 pictures become 7 with the last picture underneath.
+I tested my website further on my iphone 14 pro max and also my iphone XR. I can easily navigate through the Move2Improve site with both phones.
+I have also sent my site to 2 family members who have iphone SE and iphone 7 and they were able to easily naviagte their way through the website. They both said that the website is user friendly and easy to use.
+
+Known Bugs
+
+Deployment
+The project was deployed from Codeanywhere through the function "Git commit -m" onto Github. Github is the cloud where I store all my HTML and CSS code. It is also the place where assesors and potential employers can come and view my portfolio.
+
+Credits
+Code
+Codeanywhere: the platform I used to write the code
+Bootstrap: I used bootstrap for the majority of my website.
+
+Content
+All code and content was written by the developer Jeremy Amoako
+Thank you to Iris my mentor who helped me during our one-to-ones where I found some code tricky and helped making my website fully responsive.
+
+Media
+All media was created by the developer Jeremy Amoako
+
+Acknowledgements
+Thank you to Iris again for supporting me throughout my project. <3
+Thank you for tutor support for being understanding about my deadlines for my project.
