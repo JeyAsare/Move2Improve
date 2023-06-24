@@ -2,6 +2,8 @@
 
 ## User Centric Frontend Development Milestone Project.
 
+[(Here is my milestone project](https://jeyasare.github.io/Move2Improve/)
+
 My name is Jeremy and this is my website - Move2Improve. Move2Improve is fitness site aimed for anybody who is looking to start or enhance their fitness journey.
 This project is for educational purposes only as it will only be used in my portfolio and wiil not be used for any business purposes.
 The aim for this project is to build a fully responsive website for users on any devices such as phones, tablets and desktops.
