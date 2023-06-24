@@ -134,9 +134,9 @@ To also be able to use Github repository you need to:
 - Other than that my site didn't have many consistent bugs.
 
 - Deployment
-  The project was deployed from Codeanywhere through the function "Git commit -m" onto Github. Github is the cloud where I store all my HTML and CSS code. It is also the place where assesors and potential employers can come and view my portfolio.
-  To deplaoy a project you must:
-  Log in to Github and click on repository to download
+- The project was deployed from Codeanywhere through the function "Git commit -m" onto Github. Github is the cloud where I store all my HTML and CSS code. It is also the place where assesors and potential employers can come and view my portfolio.
+- To deplaoy a project you must:
+- Log in to Github and click on repository to download
 
 ## Credits
 
