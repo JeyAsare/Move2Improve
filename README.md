@@ -2,7 +2,7 @@
 
 ## User Centric Frontend Development Milestone Project.
 
-[(Here is my milestone project](https://jeyasare.github.io/Move2Improve/)
+[(Here is my milestone project](https://jeyasare.github.io/Move2Improve/))
 
 My name is Jeremy and this is my website - Move2Improve. Move2Improve is fitness site aimed for anybody who is looking to start or enhance their fitness journey.
 This project is for educational purposes only as it will only be used in my portfolio and wiil not be used for any business purposes.
@@ -119,9 +119,10 @@ I used markup validators to make sure that my code was all correct and that ther
 
 To also be able to use Github repository you need to:
 
-- Log in to Github and click on repository to download
-- Select 'Code' and click download to zip file.
-- After download you can use the file in your local enviroment.
+- Log into Github and click on repository
+- Select settings and find Github pages at the bottom left.
+- Go to the branch section and selct "main" and "roots" then click save
+- Auto-refresh and your project shouold be live on Git Pages
 
 ### Further Testing
 
