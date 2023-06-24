@@ -1,4 +1,4 @@
-<img width="2560" alt="Lighthouse results" src="https://github.com/JeyAsare/Move2Improve/assets/128613397/4dc3def6-4fac-4a2d-a9dd-988ff98e2c4d"># Jeremy's website
+# Jeremy's website
 
 ## User Centric Frontend Development Milestone Project.
 
