@@ -88,7 +88,7 @@ I used markup validators to make sure that my code was all correct and that ther
 
 - validator.w3.org (Nu HTML checker)
 - cssportal.com (css checker)
-  When using the Html checker, my results showed that I had a few warning messages about my code. It told me that I had <sections> without any <h2>-<h6> which isn't the best way to write code. It also adviced me that instead of having a <section> element I should just use <div>.
+- When using the Html checker, my results showed that I had a few warning messages about my code. It told me that I had <sections> without any <h2>-<h6> which isn't the best way to write code. It also adviced me that instead of having a <section> element I should just use <div>.
 
 ## User stories testing
 
