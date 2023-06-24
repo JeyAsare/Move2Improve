@@ -1,4 +1,4 @@
-# Jeremy's website
+<img width="2560" alt="Lighthouse results" src="https://github.com/JeyAsare/Move2Improve/assets/128613397/4dc3def6-4fac-4a2d-a9dd-988ff98e2c4d"># Jeremy's website
 
 ## User Centric Frontend Development Milestone Project.
 
@@ -131,6 +131,17 @@ To also be able to use Github repository you need to:
 - I tested my website further on my iphone 14 pro max and also my iphone XR. I can easily navigate through the Move2Improve site with both phones.
 - I have also sent my site to 2 family members who have iphone SE and iphone 7 and they were able to easily naviagte their way through the website. They both said that the website is user friendly and easy to use.
 
+## Performance Testing
+I ran my site throug
+h Lighthouse which is a chrome developer tool to check the performance of my site. 
+Here is a screenshot of my results below. (Mobile view) & (desktop view) respectively.
+<img width="2560" alt="Lighthouse results" src="https://github.com/JeyAsare/Move2Improve/assets/128613397/29302acc-6ff8-4f34-a9c6-a53d0d0fec18">
+<img width="2560" alt="Lighthouse Results Desktop" src="https://github.com/JeyAsare/Move2Improve/assets/128613397/85368881-9f02-4f04-9058-96a430e1606c">
+
+
+
+
+
 ## Known Bugs
 
 - As mentioned above when using Safari my row of 8 picture became 7 pictures whith 1 picture underneath.
@@ -146,11 +157,18 @@ To also be able to use Github repository you need to:
 Code
 
 - Codeanywhere: the platform I used to write the code
-- Bootstrap: I used bootstrap for the majority of my website.
 
+Bootstrap: I used bootstrap for the majority of my website.
+Bootstrap: [Vertical Gutter] (https://getbootstrap.com/docs/5.3/layout/gutters/)
+Bootstrap: [Navbar](https://getbootstrap.com/docs/5.3/components/navbar/)
+Bootstrap: [Button] (https://getbootstrap.com/docs/5.3/components/buttons/)
+Bootsrap: [Vertical Alignment] (https://getbootstrap.com/docs/5.3/layout/columns/)
+Bootstrap: [Grid] (https://getbootstrap.com/docs/5.3/layout/grid/)
+Bootstrap: [Aligning Images] (https://getbootstrap.com/docs/5.3/content/images/)
+  
 ## Content
 
-- All code and content was written by the developer Jeremy Amoako
+- All  content was written by the developer Jeremy Amoako
 - Thank you to Iris my mentor who helped me during our one-to-ones where I found some code tricky and helped making my website fully responsive.
 
 ## Media
