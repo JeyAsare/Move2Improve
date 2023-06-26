@@ -55,7 +55,12 @@ The main colours I used were:
 
 ## Planning
 
-- I planned on building my site using Balsamiq Wireframes. This site allowed me to plan the skeleton structure of my sight and invision how it would look like ince I have fully completed my website.
+- I planned on building my site using Balsamiq Wireframes. This site allowed me to plan the skeleton structure of my sight and invision how it would look like ince I have fully completed my website. Here are some wireframes showing the outline of my Move2Improve website.
+
+<img width="371" alt="Homepage desktop view " src="https://github.com/JeyAsare/Move2Improve/assets/128613397/db2a9d53-1de5-4639-a951-0a3b8de7950f">
+<img width="337" alt="Classes desktop view" src="https://github.com/JeyAsare/Move2Improve/assets/128613397/6788f3df-5fa7-4ffa-b506-75a0ba19102f">
+<img width="305" alt="Personal Trainer view " src="https://github.com/JeyAsare/Move2Improve/assets/128613397/f305140a-9692-49df-994c-1fd393a3ed14">
+<img width="245" alt="Screenshot 2023-06-24 at 09 25 05" src="https://github.com/JeyAsare/Move2Improve/assets/128613397/c5546b60-6cde-41b3-a371-2b2931cd8805">
 
 ## Features
 
